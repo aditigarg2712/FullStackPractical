@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: absolute;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 80px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: palevioletred;
+}
+nav ul .Sign{
+    display: inline-block;
+    margin-left: 600px;
+    background: linear-gradient(45deg, #87fefe, #fffd77);
+    border-radius: 6px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 80px;
+}
+.content .exp{
+    display: inline-block;
+    background: linear-gradient(45deg, #87feee, #fffd77);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-left: 80px;
+
+}
+.navb{
+    width: 70px;
+    height: 100vh;
+    background: greenyellow;
+    position: relative;
+    top: -320px;
+    left: 0;
+}
+.navb ul li i{
+    font-size: 16px;
+    color: black;
+
+}
